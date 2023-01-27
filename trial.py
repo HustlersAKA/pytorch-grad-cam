@@ -19,7 +19,7 @@ def pil_to_np(img):
 
 
 def integerize(num):
-  return int(floor(num))  
+  return int(math.floor(num))  
 
 
 def pre_detection_preprocessing(img , max_dim = 1000 ): 
